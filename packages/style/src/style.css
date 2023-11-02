@@ -1,0 +1,25 @@
+@import '@catppuccin/palette/style';
+@import './fonts.css';
+@import './variables.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--ctp-mocha-surface0);
+  font-family: Lato, sans-serif;
+  color: var(--ctp-mocha-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--ctp-mocha-blue);
+}
